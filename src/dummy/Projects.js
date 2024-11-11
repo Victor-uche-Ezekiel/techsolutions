@@ -1,0 +1,56 @@
+import { v4 as uuid } from "uuid";
+import {
+  project1,
+  project2,
+  project3,
+  project4,
+  project5,
+  project6,
+} from "@/imports";
+
+export const dataProject = [
+  {
+    id: uuid(),
+    title: "Gnaza E-commerce Store",
+    summary: "",
+    link: "https://gnaza-nextjs-store.vercel.app/",
+    github: "https://github.com/Victor-uche-Ezekiel/Gnaza-nextjs-store",
+    type: "Featured Project",
+    img: project1,
+    styles: "col-span-12",
+    type: 1,
+  },
+  {
+    id: uuid(),
+    title: "Next Movies",
+    summary: "",
+    link: "https://next-movies-app-xi.vercel.app/",
+    github: "/",
+    type: "Website Template",
+    img: project2,
+    styles: "col-span-6 sm:col-span-12",
+    type: 0,
+  },
+  {
+    id: uuid(),
+    title: "Adomicas",
+    summary: "",
+    link: "/",
+    github: "/",
+    type: "Website",
+    img: project3,
+    styles: "col-span-6 sm:col-span-12",
+    type: 0,
+  },
+  {
+    id: uuid(),
+    title: "Portfolio Website",
+    summary: "",
+    link: "/",
+    github: "/",
+    type: "Featured Project",
+    img: project4,
+    styles: "col-span-12",
+    type: 1,
+  },
+];
